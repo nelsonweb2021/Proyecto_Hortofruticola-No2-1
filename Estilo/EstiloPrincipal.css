@@ -1,113 +1,136 @@
-*{
-  margin:0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
+* {
+  margen : 0 ;
+  acolchado :  0 ;
+  familia de fuentes :  'Open Sans' , sans-serif;
 }
 
-.Contenedor {
- border: solid 1px black; 
- width: 100%;
- max-width: 1000px;
- margin:auto;
- box-sizzing: border-box;
- overflow:hidden;
+. Contenedor {
+ borde : negro sólido de 1 px ;
+ ancho :  100 % ;
+ ancho máximo :  1000 px ;
+ margen : automático;
+ tamaño de caja : caja de borde;
+ desbordamiento : oculto;
 }
 
 
-.Cabecera {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  height:100px
+. Cabecera {
+  pantalla : flex;
+  justificar-contenido : espacio-entre;
+  posición : relativa;
+  altura : 100 px
 }
 
-.Cabecera figure {
- width: 130px;
- margin: auto;
+. Figura de Cabecera  {
+ ancho :  130 px ;
+ margen : automático;
 }
 
-.Cabecera img {
- width:130px; 
- height: 100px;
+. Cabecera  img {
+ ancho : 130 px ;
+ altura :  100 px ;
 }
 
-.cabecera_h1 {
- position:absolute;
- top: 40px;
- left:150px;
+. cabecera_h1 {
+ posición : absoluta;
+ superior :  40 px ;
+ izquierda : 150 px ;
 }
 
-.cabecera_frase {
- position:absolute;
- top:70px;
- left:235;
+. cabecera_frase {
+ posición : absoluta;
+ superior : 70 px ;
+ izquierda : 235 ;
 }
 
-.nav {
-margin: 10px 10px 0 0;
-position:unset;
-bacground:none;
-height: auto;
-width: unset;
-border:none;  
+. nav {
+margen :  10 px  10 px  0  0 ;
+posición : desarmado;
+fundamento : ninguno;
+altura : auto;
+ancho : desarmado;
+borde : ninguno;  
 }
 
-.nav_link {
- background: #008899;
- color:white;
- padding:5px;
- border-radius:3px;
+. nav_link {
+ fondo :  # 008899 ;
+ color : blanco;
+ relleno : 5 px ;
+ radio del borde : 3 px ;
 }
 
-.nav_link_palote {
- background: #008899;
- color:white;
- padding:5px;
- border-radius:3px;
+. nav_link_palote {
+ fondo :  # 008899 ;
+ color : blanco;
+ relleno : 5 px ;
+ radio del borde : 3 px ;
 }
 
-.nav_link_button {
- background: #008899;
- color:white;
- padding:5px;
- border-radius:3px;
+. nav_link_button {
+ fondo :  # 008899 ;
+ color : blanco;
+ relleno : 5 px ;
+ radio del borde : 3 px ;
 }
 
-/**************************/
-.galeria {
-  width: 100%;
-  height: 400px;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+/ ************************** /
+. galeria {
+  ancho :  100 % ;
+  altura :  400 px ;
+  fondo :  # 333 ;
+  pantalla : flex;
+  justificar-contenido : centro;
+  alinear-elementos : centro;
 }
 
-.galeria_lienzo {
-  width: 600px;
-  height: 350px;
-  overflow:hidden;
+. galeria_lienzo {
+  ancho :  600 px ;
+  altura :  350 px ;
+  desbordamiento : oculto;
 }
 
-.galeria_contenedor {
- display: flex;
- width: 7000px;
- height: 50px;
- transition: transform 1s ease-in;
- will-change: transform;
+. galeria_contenedor {
+ pantalla : flex;
+ ancho :  7000 px ;
+ altura :  50 px ;
+ transición : transforme 1 s entrada rápida;
+ will-change : transform;
 }
 
-.elemento1:checked ~ .galeria_contenedor {
- transform: trasnlateX(0px); 
+. elemento1 : marcado  ~ . galeria_contenedor {
+ transformar :  translateX ( 0 px );
 }
 
-.elemento2:checked ~ .galeria_contenedor {
- transform: translateX(-600px); 
+. elemento2 : marcado  ~ . galeria_contenedor {
+ transformar :  translateX ( -600 px );
 }
 
-.elemento3:checked ~ .galeria_contenedor {
- transform: trasnlateX(-1200px); 
+. elemento3 : marcado  ~ . galeria_contenedor {
+ transformar :  translateX ( -1200 px );
 }
+
+
+. controles {
+ ancho :  100 % ;
+ altura :  30 px ;
+ pantalla : flex;
+ justificar-contenido : centro;
+ posición : relativa;
+ superior :  -26 px ;
+}
+
+
+etiqueta {
+ margen : 5 px ;
+ ancho :  20 px ;
+ altura :  20 px ;
+ radio del borde :  100 px ;
+ fondo : verde;
+ pantalla : bloque;
+ cursor : puntero;
+}
+
+  
 
 
 
