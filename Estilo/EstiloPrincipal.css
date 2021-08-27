@@ -14,7 +14,6 @@
   overflow: hidden;
 }
   
-@media screen and (max-width: 600px){
   
 .Cabecera {
   display: flex;
@@ -44,11 +43,6 @@ width: 95px;
  top: 70px;
  left: 100px;
 }
-
-.nav {
-  display:none;
-}
-
 
 
 .nav{
