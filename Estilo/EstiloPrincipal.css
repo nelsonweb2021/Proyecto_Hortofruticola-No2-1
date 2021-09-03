@@ -18,26 +18,36 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: 100px;
-  
+  height: 130px;
 }
+  
+  .cabecera figure {
+    width: 130px;
+    margin: Auto;
+  }
+    
 
 .Cabecera img{
-  width: 100px;
+  width: 95px;
+  height: 80px;
   
 }
 
 .cabecera_h1 {
   position: absolute;
   top: 40px;
-  left: 150px;
+  left: 100px;
   
 }
 
 .cabecera_frase {
   position: absolute;
   top: 70px;
-  left: 235px;
+  left: 100px;
+}
+
+.nav {
+  display:none;
 }
 
 .nav{
@@ -175,5 +185,36 @@ label{
 
 .tienda h3{
   text-align:center;
+}
+
+
+/*****************************/
+
+.espacio{
+  position: relative;
+  heigt: 20px;
+}
+
+.PiePagina {
+  display: flex;
+  justif-content: center;
+  position: relative;
+  height: 105px;
+  background: #008B99;
+  align-content: center;
+}
+
+.PiePagina footer{
+  text-align: center;
+  color:white;
+}
+
+/*responsive desig */
+
+@media screen and (max-width: 600px){
+  .tienda{
+        grid-template: repeat(3, 300px) / repeat(1, 3000px) ;
+  }
+  
 }
 
